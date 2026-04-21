@@ -1,5 +1,9 @@
-#Paola Ramos Mendes
-#CH8 Assignment
+#Your assignment for chapter 8 is to modify a provided password verification program to include additional requirements. In the provided starting program, 
+#the user is prompted to enter a password and the password is considered valid if the length is at least 8 characters, contains a digit, and contains an uppercase character.
+#Make the following changes:
+#1) Add the following additional requirement for a valid password: it must contain at least one of these special characters: !, @, #, or $
+#2) Edit the program in the appropriate place to use a loop so if the user enters an invalid password, the program will ask them to enter a new password until they have entered a valid password.
+#04/18/2026
 
 def hasUpperCase(pw):
     upperFound = False
