@@ -1,12 +1,8 @@
-# Chapter 5 Programming Assignment
-# Paola Ramos Mendes
-# Programming Challenge # 18 - Prime Number List
-# The following code contains a total of 5 errors that are identified as Error #1 - 5
-# Edit the code to correct the 5 errors and include a comment briefly explaining what you changed
-# for each error
-# is_prime function: A number is prime if it is only evenly divisible by 1 and itself. Create a loop
-# that tests to see if the number is evenly divisible by any number from 2 through number - 1. Use the
-# modulus operator to determine if the remainder from division is 0
+#The following code contains a total of 5 errors that are identified as Error #1 - 5
+#Edit the code to correct the 5 errors and include a comment briefly explaining what you changed for each error
+#is_prime function: A number is prime if it is only evenly divisible by 1 and itself. Create a loop that tests to see if the number is evenly divisible by any number from 2 through number - 1. Use the
+#modulus operator to determine if the remainder from division is 0
+#03/14/2026
 
 def is_prime(num):
     isPrime = True
