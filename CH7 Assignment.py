@@ -1,5 +1,19 @@
-#Paola Ramos Mendes
-#CH7 Assignment
+#Your programming assignment for chapter 7 will be a To-Do list management program. You will create a menu-driven program that allows the user to manage a list of To-Do items. You can add items to the list, remove items from the list, and display the current status of the list. Additional information:
+#Your program will have the following functions:
+#def GetMenuChoice(): This function will display the following menu:
+#1) Add item to list
+#2) Remove item from list
+#3) Display list
+#4) Quit program
+#This function will display the menu and get the user's menu selection. Validate the selection and then return the menu choice using a return statement.
+#def AddItem(todoList): If the user chooses option 1 from the menu, your program will call this function. 
+#In this function, you will ask the user to enter the next To-Do item and then use the append function to add the item to the list. 
+#def RemoveItem(todoList): If the user chooses option 2 from the menu, your program will call this function. 
+#In this function, you will ask the user to enter the To-Do item they want to remove from the list. Use an if statement with the in operator to determine if the description entered by the user exists in the list. If it exists, call the remove function to remove that item from the list. If it does not exist, display an error message.
+#def main(): Your main function will create an empty list and then use a while loop to display the menu by calling the GetMenuChoice function. 
+#Use an if/elif statement to check the user's menu choice and call the appropriate function, passing the list as an argument. If the user chooses option 3 (display list), you can just use a print statement to display the list contents. The program will continue to execute until the user selects option 4 to quit.
+#04/11/2026
+
 def main():
     # Here I created an empty list to store all the to-do items
     todoList = []
